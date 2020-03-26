@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.ExtentReportListener" />
+		<listener class-name="reportConfig.ExtentTestListener" />
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
+	<test name="LiveGuru.FrontEnd">
+		<parameter name="browserName" value="chrome_ui" />
+		<classes>
+			<!-- <class name="com.liveguru.frontend.Register_Account"/> -->
+<!-- 			<class name="com.liveguru.frontend.Purchase_Product_Function_FirstTime" /> -->
+			<!-- <class name="com.liveguru.frontend.Product_Function"> -->
+			<!-- <methods> -->
+			<!-- <include name="TC_09_Verify_user_is_able_to_purchase_product"></include> -->
+			<!-- </methods> -->
+			<!-- </class> -->
+			<class name="com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE" >
+			<methods>
+			<include name="TC_01_Register_success_to_system"></include>
+			<include name="TC_02_Add_New_Review"></include>
+			<include name="TC_03_Edit_Review"></include>
+			<include name="TC_04_Delete_Review"></include>
+			<include name="TC_05_Delete_Account_Back_End"></include>
+			</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
