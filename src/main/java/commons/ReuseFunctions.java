@@ -594,7 +594,7 @@ public class ReuseFunctions {
 		hoverMouseToElement(HomePageBE_UI.DYNAMIC_MAIN_MENU_SPAN,textMenu);
 	}
 	
-	public void isLoadingMaskDisappear() {
+	public void waitForLoadingMaskDisappear() {
 		waitForElementInvisible(CommonPageUI.LOADING_MASK);
 	}
 }

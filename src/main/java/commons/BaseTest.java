@@ -19,6 +19,8 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BaseTest {
 
 	private WebDriver driver;
@@ -35,23 +37,28 @@ public class BaseTest {
 	
 	protected synchronized WebDriver getBrowserDriver(String browserName) {
 		if (browserName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", rootFolder + "/src/test/resources/geckodriver.exe");
+//			System.setProperty("webdriver.gecko.driver", rootFolder + "/src/test/resources/geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		} else if (browserName.equalsIgnoreCase("chrome_ui")) {
-			System.setProperty("webdriver.chrome.driver", rootFolder + "/src/test/resources/chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver", rootFolder + "/src/test/resources/chromedriver.exe");
+			WebDriverManager.chromedriver().version("78.0.3904.105").setup();
 			driver = new ChromeDriver();
 		} else if (browserName.equalsIgnoreCase("ie")) {
 			System.setProperty("webdriver.ie.driver", rootFolder + "/src/test/resources/IEDriverServer.exe");
+			WebDriverManager.iedriver().setup();
 			driver = new InternetExplorerDriver();
 		} else if (browserName.equalsIgnoreCase("chrome_headless")) {
-			System.setProperty("webdriver.chrome.driver", rootFolder + "/src/test/resources/chromedriver.exe");
+//			System.setProperty("webdriver.chrome.driver", rootFolder + "/src/test/resources/chromedriver.exe");
+			WebDriverManager.chromedriver().version("78.0.3904.105").setup();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("headless");
 			options.addArguments("window-size=1366x768");
 			driver = new ChromeDriver(options);
 			driver.manage().deleteAllCookies();
 		} else if (browserName.equalsIgnoreCase("firefox_headless")) {
-			System.setProperty("webdriver.gecko.driver", rootFolder + "/src/test/resources/geckodriver.exe");
+//			System.setProperty("webdriver.gecko.driver", rootFolder + "/src/test/resources/geckodriver.exe");
+			WebDriverManager.firefoxdriver().setup();
 			FirefoxOptions options = new FirefoxOptions();
 			options.setHeadless(true);
 			driver = new FirefoxDriver(options);

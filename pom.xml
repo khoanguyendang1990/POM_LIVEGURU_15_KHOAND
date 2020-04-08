@@ -120,7 +120,7 @@
 
 					<!-- Run TestNG xml file -->
 					<suiteXmlFiles>
-						<file>src/main/resources/BankGuru.xml</file>
+						<file>src/main/resources/LiveGuru_Frontend.xml</file>
 					</suiteXmlFiles>
 
 				</configuration>

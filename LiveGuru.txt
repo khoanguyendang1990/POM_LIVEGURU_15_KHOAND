@@ -1,96 +1,18 @@
-2020-03-25 14:43:39,514 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_01_Register_success_to_system========
-2020-03-25 14:43:39,516 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 site
-2020-03-25 14:43:43,367 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: Click on Account menu
-2020-03-25 14:43:43,485 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Choose Register link
-2020-03-25 14:43:44,815 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:43:44,815 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Input all valid data to form
-2020-03-25 14:43:44,815 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to FirstName: Khoa
-2020-03-25 14:43:44,970 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to MiddleName: Dang
-2020-03-25 14:43:45,123 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to LastName: Nguyen
-2020-03-25 14:43:45,274 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Email: khoa73667100@hotmail.com
-2020-03-25 14:43:45,498 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Password: khoa1234
-2020-03-25 14:43:45,646 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Confirm Password: khoa1234
-2020-03-25 14:43:45,803 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Click to Register button
-2020-03-25 14:43:47,070 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify text displayed after registerd successfully
-2020-03-25 14:43:47,146 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:43:47,146 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_01_Register_success_to_system========
-2020-03-25 14:43:47,156 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_02_Add_New_Review========
-2020-03-25 14:43:47,156 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 site
-2020-03-25 14:43:47,875 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: Click on TV Menu
-2020-03-25 14:43:49,820 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Product List TV open correctly
-2020-03-25 14:43:49,890 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:43:49,890 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Click on product: LG LCD
-2020-03-25 14:43:51,826 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Product details page LG LCD open correctly
-2020-03-25 14:43:51,928 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:43:51,928 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Click on reviews
-2020-03-25 14:43:53,527 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Fill in reviews field
-2020-03-25 14:43:53,528 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input To Review Detail
-2020-03-25 14:43:53,765 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input To Review Summary
-2020-03-25 14:43:53,959 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input To Name
-2020-03-25 14:43:54,112 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click Submit button
-2020-03-25 14:43:55,375 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify review messsage added successfully
-2020-03-25 14:43:55,435 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:43:55,435 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click on Account menu
-2020-03-25 14:43:55,523 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Log out
-2020-03-25 14:43:57,361 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_02_Add_New_Review========
-2020-03-25 14:43:57,367 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_03_Edit_Review========
-2020-03-25 14:43:57,368 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 Admin site
-2020-03-25 14:43:59,785 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: LoginLiveGuru99 Admin site
-2020-03-25 14:44:04,070 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Navigate to Customers Reviews - Pending Review
-2020-03-25 14:44:05,206 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Input Email to search Account
-2020-03-25 14:44:05,207 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Pending Review page is opened
-2020-03-25 14:44:05,272 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:05,272 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Title textbox
-2020-03-25 14:44:06,485 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Wait for Loading Mask disappear
-2020-03-25 14:44:06,524 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click on Review
-2020-03-25 14:44:07,476 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Edit Review page is opened
-2020-03-25 14:44:07,540 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:07,540 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Edit review then Save
-2020-03-25 14:44:07,540 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Edit review details
-2020-03-25 14:44:08,914 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 6: Verify Message Edit Review Successfully
-2020-03-25 14:44:08,991 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:09,480 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Log out
-2020-03-25 14:44:10,285 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_03_Edit_Review========
-2020-03-25 14:44:10,289 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_04_Delete_Review========
-2020-03-25 14:44:10,289 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 Admin site
-2020-03-25 14:44:10,680 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: LoginLiveGuru99 Admin site
-2020-03-25 14:44:12,391 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Navigate to Customers Reviews - Pending Review
-2020-03-25 14:44:13,259 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Input Email to search Account
-2020-03-25 14:44:13,260 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Pending Review page is opened
-2020-03-25 14:44:13,321 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:13,322 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Title textbox
-2020-03-25 14:44:14,387 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Wait for Loading Mask disappear
-2020-03-25 14:44:14,423 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click on Review
-2020-03-25 14:44:15,054 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Edit Review page is opened
-2020-03-25 14:44:15,122 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:15,123 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Delete review
-2020-03-25 14:44:15,123 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Delete review
-2020-03-25 14:44:15,225 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 6: Verify Message Delete Review Successfully and review doesn't show in Review grid
-2020-03-25 14:44:15,226 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Message Delete Review Successfully
-2020-03-25 14:44:16,309 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:16,310 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify review doesn't show in Review grid
-2020-03-25 14:44:21,343 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:21,769 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Log out
-2020-03-25 14:44:22,495 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_04_Delete_Review========
-2020-03-25 14:44:22,500 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_05_Delete_Account_Back_End========
-2020-03-25 14:44:22,500 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 Admin site
-2020-03-25 14:44:22,857 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: LoginLiveGuru99 Admin site
-2020-03-25 14:44:25,211 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Navigate to Manage Customers
-2020-03-25 14:44:25,981 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Input Email to search Account
-2020-03-25 14:44:25,981 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Manage Customers page is opened
-2020-03-25 14:44:26,012 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:26,013 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Manage Customers page is opened
-2020-03-25 14:44:26,593 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Wait for Loading Mask disappear
-2020-03-25 14:44:27,156 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click on Email
-2020-03-25 14:44:28,724 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify Customer Information page is opened
-2020-03-25 14:44:28,768 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:28,769 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Delete Customer Account
-2020-03-25 14:44:28,769 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Click on Delete Customer
-2020-03-25 14:44:28,894 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 6: Verify Message Delete Customer Account Successfully
-2020-03-25 14:44:29,935 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:29,935 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify review doesn't show in Review grid
-2020-03-25 14:44:34,978 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
-2020-03-25 14:44:35,402 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Log out
-2020-03-25 14:44:36,180 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_05_Delete_Account_Back_End========
-2020-03-25 14:44:36,183 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - OS name = windows 10
-2020-03-25 14:44:37,436 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ---------- QUIT BROWSER SUCCESS ----------
+2020-04-08 14:07:37,104 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========Start TC_01_Register_success_to_system========
+2020-04-08 14:07:37,106 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 1: Open LiveGuru99 site
+2020-04-08 14:07:42,691 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 2: Click on Account menu
+2020-04-08 14:07:42,856 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 3: Choose Register link
+2020-04-08 14:07:45,091 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
+2020-04-08 14:07:45,091 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 4: Input all valid data to form
+2020-04-08 14:07:45,091 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to FirstName: Khoa
+2020-04-08 14:07:45,274 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to MiddleName: Dang
+2020-04-08 14:07:45,480 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to LastName: Nguyen
+2020-04-08 14:07:45,684 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Email: khoa62349472@hotmail.com
+2020-04-08 14:07:46,014 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Password: khoa1234
+2020-04-08 14:07:46,398 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Input to Confirm Password: khoa1234
+2020-04-08 14:07:46,579 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Step 5: Click to Register button
+2020-04-08 14:07:48,477 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - Verify text displayed after registerd successfully
+2020-04-08 14:07:48,575 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE -  -------------------------- PASSED -------------------------- 
+2020-04-08 14:07:48,575 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ========End TC_01_Register_success_to_system========
+2020-04-08 14:07:48,581 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - OS name = windows 10
+2020-04-08 14:07:51,058 INFO  com.liveguru.backend.Register_Account_FE_Then_Delete_Account_BE - ---------- QUIT BROWSER SUCCESS ----------

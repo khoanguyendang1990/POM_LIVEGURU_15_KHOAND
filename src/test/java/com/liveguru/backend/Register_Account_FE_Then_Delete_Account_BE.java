@@ -1,14 +1,11 @@
 package com.liveguru.backend;
 
-import java.io.IOException;
-
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import com.fasterxml.jackson.databind.deser.ValueInstantiator.Gettable;
 import com.relevantcodes.extentreports.LogStatus;
 
 import commons.BaseTest;
@@ -20,7 +17,6 @@ import pageObjects.backend.HomeBE_PO;
 import pageObjects.backend.LoginBE_PO;
 import pageObjects.backend.ManageCustomerBE_PO;
 import pageObjects.backend.ReviewBE_PO;
-import pageObjects.frontend.AccountInformationPO;
 import pageObjects.frontend.HomePO;
 import pageObjects.frontend.MyWishListPO;
 import pageObjects.frontend.ProductDetailsPO;
@@ -205,7 +201,7 @@ public class Register_Account_FE_Then_Delete_Account_BE extends BaseTest {
 		reviewBE_PO.clickToDynamicButton("Search");
 		
 		log.info("Wait for Loading Mask disappear");
-		reviewBE_PO.isLoadingMaskDisappear();
+		reviewBE_PO.waitForLoadingMaskDisappear();
 		
 		log.info("Click on Review");
 		reviewBE_PO.editReviewByTitleSummary(titleSummary);
@@ -269,7 +265,7 @@ public class Register_Account_FE_Then_Delete_Account_BE extends BaseTest {
 		reviewBE_PO.clickToDynamicButton("Search");
 		
 		log.info("Wait for Loading Mask disappear");
-		reviewBE_PO.isLoadingMaskDisappear();
+		reviewBE_PO.waitForLoadingMaskDisappear();
 		
 		log.info("Click on Review");
 		reviewBE_PO.editReviewByTitleSummary(titleSummary);
@@ -337,7 +333,7 @@ public class Register_Account_FE_Then_Delete_Account_BE extends BaseTest {
 		manageCustomerBE_PO.clickToDynamicButton("Search");
 		
 		log.info("Wait for Loading Mask disappear");
-		manageCustomerBE_PO.isLoadingMaskDisappear();
+		manageCustomerBE_PO.waitForLoadingMaskDisappear();
 		
 		log.info("Click on Email");
 		manageCustomerBE_PO.editUserByEmail(email);
